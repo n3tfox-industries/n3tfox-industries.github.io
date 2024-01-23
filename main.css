@@ -1,25 +1,38 @@
+@font-face {
+    font-family: RobotoLight;
+    src: url(Roboto-Light.woff);
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(Ubuntu-Regular.woff);
+}
+
+
+
 nav {
     color: #ff6600;
     display: block;
     position: fixed;
-    background-color:#000000;
+    background-color: #000000;
     top: 0px;
     left: 0px;
     right: 0px;
     height: 40px;
-    margin:0px;
-    z-index:10;
+    margin: 0px;
+    z-index: 10;
+    font-family: Ubuntu;
 }
 
 #mainContent {
-    color:#000000;
-    background-color:#ffffff;
-    display:block;
-    position:absolute;
-    top:40px;
-    left:0px;
-    right:0px;
-    bottom:0px;
-    margin:0px;
-    overflow:scroll;
+    color: #000000;
+    background-color: #ffffff;
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: 0px;
+    overflow: scroll;
 }
