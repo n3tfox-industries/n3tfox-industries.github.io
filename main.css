@@ -13,7 +13,7 @@
 nav {
     color: #ff6600;
     display: block;
-    position: fixed;
+    position: absolute;
     font-size: 30px;
     background-color: #000000;
     top: 0px;
@@ -31,6 +31,7 @@ nav {
 
 #mainContent {
     color: #000000;
+    font-family:RobotoLight;
     background-color: #ffffff;
     display: block;
     position: absolute;
